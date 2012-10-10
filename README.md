@@ -10,6 +10,12 @@ against your HBase cluster with:
 
     $ hbase thrift start
 
+You also need the Python Thrift library installed. Installation is
+platform-specific, but it's most easily handled through the
+`easy_install` utility:
+
+    $ sudo easy_install thrift==0.8.0
+
 Launching the client is then as simple as:
 
     $ ./TwitBase.py list
